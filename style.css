@@ -1,0 +1,40 @@
+* {
+    font-family: sans-serif;
+    width: 100%;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #18181D;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo{
+    max-width: 600px;
+    margin-bottom: 25px;
+}
+
+.container-input{
+    max-width: 480px;
+    margin: 14px 0;
+
+}
+
+.container-input span {
+    color: #FFF;
+    font-size: 22px;
+}
+
+.slider {
+    -webkit-appearance: none; /*TIRA O PRENCHIDO "AZUL", FICA SÓ A ALAVANCA PURA*/
+    width: 100%;
+    background-color: #DFDFDF;
+    height: 18px;
+    margin-top: 8px;
+}

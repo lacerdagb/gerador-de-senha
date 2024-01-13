@@ -1,11 +1,11 @@
 
 let sliderElement = document.querySelector("#slider");
-let buttonElement = document. querySelector ("#button");
+let buttonElement = document.querySelector ("#button");
 
 let sizePassword = document.querySelector ("#valor");
 let password = document.querySelector ("#password");
 
-let containerPassword = document.querySelector ("#container-input");
+let containerPassword = document.querySelector ("#container-password");
 
 let charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#";
 let novaSenha = "";
@@ -26,5 +26,11 @@ function generatePassword() { //Função para gerar os números aleatórios
 
     containerPassword.classList.remove("hide"); // Vai remover o hide para mostrar a senha.
     password.innerHTML = pass;
+    novaSenha = pass;
 
+}
+
+function copyPassword() { //Copiar a senha
+    alert("Senha copiada com sucesso!")
+    navigator.clipboard.writeText(novaSenha);
 }

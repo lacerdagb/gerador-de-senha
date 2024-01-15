@@ -109,3 +109,18 @@ body {
 .hide {
     display: none;
 }
+
+#h1 {
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.perfil {
+    color: rgb(159, 159, 159);
+    text-decoration: none;
+    font-weight: bolder;
+}
+.perfil:hover {
+    color: rgb(0, 21, 255);
+}

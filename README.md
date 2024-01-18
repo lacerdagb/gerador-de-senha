@@ -1,5 +1,5 @@
 # Projeto Tributo
-Crie senhas totalmente segura
+Crie senhas totalmente segura.
 
 ## Sobre o Projeto
 - É um projeto que a principal finalidade é criar senhas totalmente aleatória com o número de caracteres da sua escolha.
